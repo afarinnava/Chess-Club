@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "Schema for club applicants ",
+    "descriptions": "The root schema comprises the entire JSON document.",
+    "type": "object",
+    "properties": {
+        "Name": {
+            "type": "string"
+        },
+        "Email": {
+            "type": "string",
+            "format": "email"
+        },
+        "Password": {
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 20
+        },
+        "Age": {
+            "type": "string"
+        },
+        "comments": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 300
+        }
+    },
+    "required": [
+        "Name",
+        "Email",
+        "Password",
+        "Age"
+    ],
+    "additionalProperties": true
+}
