@@ -1,0 +1,17 @@
+[{
+	"name": "Tournoments",
+	"date": ["9/20/2020", "10/18/2020", "11/15/2020", "12/13/2020"],
+	"location": "At the club"
+}, {
+	"name": "Classes",
+	"date": ["Monday 9/14", "Wednesyay 9/16", "Monday 9/21", "Wednesyay 9/23"],
+	"location": "Civic Center"
+}, {
+	"name": "Puzzles",
+	"date": ["Week of 9/21", "Week of 10/5", "Week of 10/19", "Week of 11/2", "Week of 11/16"],
+	"location": "Online: link on the website"
+}, {
+	"name": "Awards",
+	"date": ["Second Sunday of the month in September, October, November, and December"],
+	"location": "At the club"
+}]
